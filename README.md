@@ -24,6 +24,5 @@ Desenvolvi um console em C# para representar uma solução abrangente para o des
 Essas medidas combinadas proporcionaram uma experiência de compra mais justa e transparente para todos os usuários, garantindo que aqueles que estavam genuinamente interessados em participar do evento tivessem a mesma chance de adquirir seus ingressos, independentemente das condições externas.
 
 #### REPRESENTAÇÃO EM BPMN.
-![BPMN 2 0](https://github.com/SilasSousadeJesus/EventoRockEmRio/assets/94381042/bfd232b7-50e3-4510-85a9-61dd62988b79)
 
-
+![BPMN](https://github.com/SilasSousadeJesus/EventoRockEmRio/assets/94381042/57a5f308-81ed-445a-951a-9587d966c1a0)
