@@ -1,5 +1,29 @@
 # EventoRockEmRio
 
-Imagine que você é o(a) arquiteto(a) responsável pelo desenho de um sistema de logins para um site extremamente concorrido de ingressos de um mega show de Rock em Rio (entendeu?). Dado que o número de ingressos é limitado e muito inferior à quantidade de acessos no dia da venda, você precisa garantir que o site só irá finalizar a venda para pessoas que realmente vão receber o ingresso, ou seja, você não pode deixar uma pessoa comprar um ingresso sem que haja mais disponíveis. Além disso, um cliente com internet mais lenta não ficaria feliz de não conseguir comprar seu ingresso pois uma pessoa com internet mais veloz passou sua frente.
 
-Desenhe uma estrutura de software que sustente esse serviço, pode ser um desenho simples, da maneira que você preferir, desde que o mesmo transmita a ideia de arquitetura que você teve para quem o lê.
+
+#### SOLUÇÃO
+
+Desenvolvi um console em C# para representar uma solução abrangente para o desafio complexo de gerenciar os logins em um site de ingressos de mega show, como o Rock in Rio. Considerando a alta demanda e os recursos limitados de ingressos, o objetivo primordial foi garantir uma experiência justa para todos os usuários, evitando que vendas indevidas ou disputas injustas ocorressem durante o processo de compra.
+
+- **Criação de Conta:**
+  - Desenvolvi um sistema de cadastro de usuários, para que possam ser autenticados ao acessar a plataforma.
+  
+- **Login e Autenticação de Usuário:**
+  - Implementei um mecanismo de login e autenticação para proteger as informações dos usuários e evitar acessos não autorizados.
+  
+- **Controle da Quantidade de Ingressos Vendidos:**
+  - Implementei a possibilidade de rastrear em tempo real o número de ingressos disponíveis e vendidos, garantindo que apenas ingressos existentes fossem vendidos a cada momento, evitando vendas além da capacidade do evento.
+  
+- **Tempo Limite Igualitário para Cada Usuário Comprar Ingressos:**
+  - Implementei um sistema de tempo limite justo para cada usuário durante o processo de compra, garantindo que todos tivessem a mesma oportunidade de adquirir ingressos, independentemente da velocidade da sua conexão com a internet.
+  
+- **Fila de Compra de Ingressos:**
+  - Introduzi uma fila virtual durante os momentos de alta demanda, onde os usuários eram colocados em uma ordem justa de espera, permitindo que cada um acessasse o site de forma equitativa e sem sobrecarregar os servidores.
+
+Essas medidas combinadas proporcionaram uma experiência de compra mais justa e transparente para todos os usuários, garantindo que aqueles que estavam genuinamente interessados em participar do evento tivessem a mesma chance de adquirir seus ingressos, independentemente das condições externas.
+
+#### REPRESENTAÇÃO EM BPMN.
+![BPMN 2 0](https://github.com/SilasSousadeJesus/EventoRockEmRio/assets/94381042/bfd232b7-50e3-4510-85a9-61dd62988b79)
+
+
