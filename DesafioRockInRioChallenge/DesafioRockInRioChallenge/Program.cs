@@ -14,7 +14,7 @@ public class Usuario
 public class Program
 {
     private const int CapacidadeEvento = 2;
-    private const int TempoLimiteCompraSegundos = 20;
+    private const int TempoLimiteCompraSegundos = 60;
 
     private static Queue<string> filaEspera = new Queue<string>();
     private static int ingressosDisponiveis = CapacidadeEvento;
